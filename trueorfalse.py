@@ -15,7 +15,7 @@ layout = [
 	[sg.Text("Да,это правда!", key="true", visible=False, font="Arial, 20")],
 ]
 
-window = sg.Window("True Or False?", layout, icon=r'/home/delifer/Documents/trueorfalse/logo.png', size=(290,400), finalize=True) #основное окно приложения
+window = sg.Window("True Or False?", layout, icon=r'/logo.png', size=(290,400), finalize=True) #основное окно приложения
 
 while True: #Закрывает программу
 	event, values = window.read() 
